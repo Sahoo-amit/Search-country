@@ -1,0 +1,81 @@
+.details{
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    padding: 5rem 10rem;
+    color: white;
+}
+.country-details{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5rem;
+}
+.country-details img{
+    height: 300px;
+    width: 400px;
+    object-fit: fill;
+}
+.cont-name{
+    font-size: 35px;
+}
+.navigate-btn{
+    margin-top: 4rem;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.description{
+    font-size: 23px;
+    margin-top: 10px;
+}
+.country-description{
+    color: gray;
+}
+
+@media screen and (max-width:650px) {
+    .details{
+        padding: 3rem 1rem;
+    }
+    .country-details{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .country-details img{
+        height: 230px;
+        width: 320px;
+    }
+    .cont-name{
+        font-size: 28px;
+    }
+    .description{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1050px){
+    .details{
+        padding: 5rem;
+    }
+    .country-details{
+        gap: 1.5rem;
+    }
+    .cont-name{
+        font-size: 28px;
+    }
+    .country-details img{
+        height: 250px;
+        width: 350px;
+    }
+    .description{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1350px){
+    .country-details{
+        gap: 3rem;
+    }
+}

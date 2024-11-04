@@ -1,0 +1,85 @@
+.about{
+    padding: 2rem 10rem;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+}
+.heading{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+.about ul{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 5rem;
+    gap: 4rem;
+}
+.about ul li{
+    list-style: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    
+    &:hover{
+        transform: scale(1.1);
+        cursor: text;
+        transition: 0.3s linear;
+    }
+}
+.name{
+    font-size: 30px;
+    margin-bottom: 8px;
+    color: rgb(255, 255, 255);
+}
+.fact{
+    color: rgb(255, 255, 255);
+}
+.capital{
+    color: orange;
+}
+.population{
+    color: yellow;
+}
+.about ul li p span{
+    color: rgba(255, 247, 247, 0.37);
+    margin-right: 5px;
+}
+.about p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1350px){
+    .about ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1050px){
+    .about ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about{
+        padding: 2rem 5rem;
+    }
+    .heading{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .about ul{
+        grid-template-columns: 1fr;
+        padding: 0rem 2rem;
+    }
+    .about{
+        padding: 2rem 1rem;
+    }
+    .heading{
+        font-size: 24px;
+    }
+    .about p{
+        font-size: 16px;
+    }
+}

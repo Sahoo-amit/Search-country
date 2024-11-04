@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Japan",
+    "capital": "Tokyo",
+    "population": 126300000,
+    "interestingFact": "Japan is home to the oldest company in the world, Kongo Gumi, established in 578 AD."
+  },
+  {
+    "id": 2,
+    "name": "Canada",
+    "capital": "Ottawa",
+    "population": 38010000,
+    "interestingFact": "Canada has the longest coastline in the world, stretching over 202,080 km."
+  },
+  {
+    "id": 3,
+    "name": "Brazil",
+    "capital": "Brasilia",
+    "population": 214000000,
+    "interestingFact": "Brazil is the only country in South America where Portuguese is the official language."
+  },
+  {
+    "id": 4,
+    "name": "Australia",
+    "capital": "Canberra",
+    "population": 25700000,
+    "interestingFact": "Australia is home to 21 of the world's 25 most venomous snakes."
+  },
+  {
+    "id": 5,
+    "name": "Germany",
+    "capital": "Berlin",
+    "population": 83020000,
+    "interestingFact": "Germany is the largest economy in Europe and the fourth-largest in the world."
+  },
+  {
+    "id": 6,
+    "name": "India",
+    "capital": "New Delhi",
+    "population": 1400000000,
+    "interestingFact": "India is the world's largest democracy, with over 900 million eligible voters."
+  },
+  {
+    "id": 7,
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "population": 128900000,
+    "interestingFact": "Mexico City is sinking by about 10 inches each year due to excessive groundwater extraction."
+  },
+  {
+    "id": 8,
+    "name": "France",
+    "capital": "Paris",
+    "population": 67390000,
+    "interestingFact": "France is the most visited country in the world, attracting over 89 million tourists annually."
+  },
+  {
+    "id": 9,
+    "name": "Egypt",
+    "capital": "Cairo",
+    "population": 109300000,
+    "interestingFact": "Egypt is home to one of the oldest civilizations, with the pyramids dating back over 4,500 years."
+  },
+  {
+    "id": 10,
+    "name": "South Africa",
+    "capital": "Pretoria (executive), Bloemfontein (judicial), Cape Town (legislative)",
+    "population": 60040000,
+    "interestingFact": "South Africa has three capital cities, each serving different branches of government."
+  }
+]

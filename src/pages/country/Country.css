@@ -1,0 +1,117 @@
+.country{
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    padding: 2rem 10rem;
+}
+.country ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+.country ul li{
+    list-style: none;
+    border: 2px solid white;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: rgba(255, 255, 255, 0.6);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 48px 100px 0px;
+}
+.country-name{
+    font-size: 30px;
+    margin-top: 8px;
+}
+.country ul li p span{
+    color: rgb(160, 160, 160);
+    font-size: 16px;
+    margin-right: 4px;
+}
+.country ul li img{
+    width: 100%;
+    height: 120px;
+    object-fit: fill;
+}
+.move-btn{
+    background: transparent;
+    outline: none;
+    border: 2px solid white;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    &:hover{
+        background: orange;
+        border: 2px solid orange;
+    }
+}
+.show-btn{
+    text-align: center;
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
+.show-btn span{
+    color: white;
+    margin: 0 10px;
+}
+.active{
+    background: orange;
+    color: white;
+}
+.outer-btn, .inner-btn{
+    font-size: 20px;
+    padding: 8px 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    &:hover{
+        background: orange;
+    }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1350px){
+    .country ul{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1050px){
+    .country ul{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    .country{
+        padding: 2rem 5rem;
+    }
+    .country-name{
+        font-size: 20px;
+    }
+    .country ul li{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .country ul{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+    .country{
+        padding: 2rem 1rem;
+    }
+    .country-name{
+        font-size: 20px;
+    }
+    .country ul li{
+        font-size: 14px;
+    }
+    .country ul li img{
+        height: 90px;
+    }
+}
+
+
+
+ 

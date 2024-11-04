@@ -1,0 +1,78 @@
+.home{
+    background: #000;
+    padding: 10rem 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.left-home h1{
+    color: white;
+    font-size: 47px;
+}
+.left-home p{
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.right-home img{
+    width: 600px;
+}
+.explore{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 7px 15px;
+
+    &:hover{
+        box-shadow: 1px 1px 5px white, -1px -1px 5px white;
+    }
+}
+@media screen and (min-width: 1050px) and (max-width: 1350px){
+    .left-home h1{
+        font-size: 35px;
+    }
+    .left-home p{
+        font-size: 17px;
+    }
+    .right-home img{
+        width: 450px;
+    }
+    .home{
+        gap: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1050px){
+    .home{
+        padding: 5rem;
+        flex-direction: column-reverse;
+    }
+    .left-home h1{
+        font-size: 35px;
+    }
+    .right-home img{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .home{
+        padding: 5rem 1rem;
+        flex-direction: column-reverse;
+    }
+    .left-home h1{
+        font-size: 28px;
+    }
+    .right-home img{
+        width: 400px;
+    }
+    .left-home p{
+        font-size: 14px;
+    }
+}

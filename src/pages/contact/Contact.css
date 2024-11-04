@@ -1,0 +1,54 @@
+.contact{
+    padding: 5rem 10rem;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+}
+.contact-top{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.username{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.contact-form button{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    &:hover{
+        background-color: yellowgreen;
+        color: white;
+        box-shadow: 1px 1px 1px yellowgreen;
+    }
+}
+
+@media screen and (max-width:650px){
+    .contact-top{
+        font-size: 30px;
+    }
+    .username{
+        font-size: 18px;
+    }
+    .contact{
+        padding: 2rem 1rem;
+    }
+    .contact-form button{
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+}
